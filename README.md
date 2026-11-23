@@ -45,9 +45,17 @@ cd medicine-memo-app
 ./mvnw spring-boot:run
 # http://localhost:8080 で起動します
 
+
 #3.フロントエンド(React)を起動
 cd frontend
 npm install
 npm run dev
 ```
 
+
+## 画面イメージ
+### ログイン画面
+<img width="437" height="601" alt="スクリーンショット 2026-11-21 232613" src="https://github.com/user-attachments/assets/decbbd65-f691-4175-9429-130bbafea03a" />
+
+### お薬管理画面（登録・一覧）
+<img width="485" height="851" alt="スクリーンショット 2026-11-21 232723" src="https://github.com/user-attachments/assets/b0862fd2-119c-4cc6-9790-7d96c3b17b0a" />
