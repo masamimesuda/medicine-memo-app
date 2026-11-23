@@ -26,3 +26,28 @@ etc.：Git, GitHub, VS Code
 
 ## ER図
 <img width="575" height="375" alt="ER図" src="https://github.com/user-attachments/assets/d227d5a5-7328-40ed-8c0e-52dc9f15d732" />
+
+
+## ローカル環境での起動方法
+### セットアップ
+#### 必要環境
+- Java21
+- Node.js
+- H2 Database
+- Git
+
+```bash
+#1.リポジトリをクローン
+git clone https://github.com/masamimesuda/medicine-memo-app.git
+cd medicine-memo-app
+
+#2.バックエンド(Spring Boot)を起動
+./mvnw spring-boot:run
+# http://localhost:8080 で起動します
+
+#3.フロントエンド(React)を起動
+cd frontend
+npm install
+npm run dev
+```
+
